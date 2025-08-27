@@ -89,3 +89,8 @@ new CozeWebSDK.WebChatClient({
     },
   },
 });
+
+CozeChatWidget.init({
+  container: '#coze-chat-container',
+  // 其他配置项...
+});
